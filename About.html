@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my web</title>
+    <link
+      href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="img/logo (1).png" alt="" /></a>
+        <div class="nav-link" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="first.html">Home</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+         
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+    <!-- about us -->
+
+    <section class="aboout-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>We are the world's largest university</h1>
+          <p>
+            excellence in education, research, and community engagement. With a
+            rich history spanning several decades, we have consistently strived
+            to provide a nurturing and dynamic learning environment for our
+            students.to provide a nurturing and dynamic learning environment for our
+            students to provide a nurturing and dynamic learning environment for our
+            students.
+          </p>
+          <a href="" class="btn-Visit red-btn">EXPLORE NOW</a>
+        </div>
+
+        <div class="about-col">
+        <img src="img/about.jpg" />
+      </div>
+    </div>
+
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+      <h4>ABOUT US</h4>
+      <p>
+        excellence in education, research, and community engagement. With a rich
+        history spanning several decades, we have consistently <br />strived to
+        provide a nurturing and dynamic learning environment for our students.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+
+      <p>Made With <i class="fa fa-heart-o"></i> By Fares Nassar</p>
+    </section>
+
+    <script>
+      var NavLink = document.getElementById("navLinks");
+      function showMenu() {
+        NavLink.style.right = "0";
+      }
+      function hideMenu() {
+        NavLink.style.right = "-260px";
+      }
+    </script>
+  </body>
+</html>
